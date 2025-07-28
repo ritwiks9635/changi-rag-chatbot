@@ -1,5 +1,4 @@
 
-````markdown
 # Changi Airport RAG Chatbot
 
 This is a production-ready retrieval-augmented chatbot (RAG) for Changi Airport & Jewel, powered by:
