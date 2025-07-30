@@ -1,10 +1,8 @@
--U -q "google-generativeai>=0.8.3"
+google-generativeai>=0.8.3
 langchain
--U langchain-community
---upgrade --quiet  langchain-google-genai
-sentence-transformers
-"pinecone[grpc]" --upgrade
-"pinecone[asyncio]"
+langchain-community
+langchain-google-genai
+pinecone[grpc]
 bs4
 requests
 fastapi
