@@ -1,8 +1,4 @@
-Absolutely — here's a clean, **company-grade `README.md`** in **plain web format** (no markdown rendering, no diagrams), ready for copy-paste and direct use:
 
----
-
-````markdown
 # Changi Airport RAG Chatbot
 
 This is a production-ready retrieval-augmented chatbot (RAG) for Changi Airport & Jewel, powered by:
