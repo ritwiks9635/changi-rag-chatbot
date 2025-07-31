@@ -5,6 +5,7 @@ langchain-google-genai
 langchain-groq
 pinecone[grpc]
 bs4
+gradio
 requests
 fastapi
 uvicorn
