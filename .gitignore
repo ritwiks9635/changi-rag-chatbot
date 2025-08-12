@@ -23,5 +23,4 @@ Thumbs.db
 scrapers/data/*.json
 
 # Env and secrets
-app/config.py
 *.secret
