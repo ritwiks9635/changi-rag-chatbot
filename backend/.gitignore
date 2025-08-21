@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+
+# VS Code & PyCharm
+.vscode/
+.idea/
+
+# Mac / Linux / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Scraper raw data
+scrapers/data/*.json
+
+# Env and secrets
+*.secret

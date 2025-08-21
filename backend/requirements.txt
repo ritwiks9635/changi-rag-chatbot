@@ -1,0 +1,15 @@
+google-generativeai>=0.8.3
+langchain
+langchain-community
+langchain-google-genai
+langchain-groq
+pinecone[grpc]
+bs4
+gradio
+requests
+fastapi
+uvicorn
+tqdm
+opik
+python-dotenv
+scrapy>=2.11.0
