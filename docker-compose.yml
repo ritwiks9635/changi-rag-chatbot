@@ -1,0 +1,21 @@
+
+services:
+  backend:
+    build:
+      context: ./backend    
+    container_name: trading-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=production
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend   
+    container_name: trading-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: always
