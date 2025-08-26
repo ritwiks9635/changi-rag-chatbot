@@ -67,6 +67,25 @@ chatbot\_app/
 
 ---
 
+Before running the backend, you need to configure the following credentials in a `.env` file (inside the `backend/` folder):
+
+```ini
+# --- Google Gemini API ---
+GEMINI_API_KEY=your_gemini_api_key
+
+# --- Pinecone (Vector Database) ---
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_ENVIRONMENT=us-east-1
+PINECONE_INDEX=chatbot-index
+
+# --- Groq API (LLM Inference) ---
+GROQ_API_KEY=your_groq_api_key
+
+# --- Opik (Evaluation & Monitoring) ---
+OPIK_API_KEY=your_opik_api_key
+OPIK_WORKSPACE_ID=your_opik_workspace_id
+OPIK_PROJECT_NAME=Chagi Chatbot Evaluation
+
 ## ⚙️ Setup & Usage
 
 ### 1. Clone the repository
