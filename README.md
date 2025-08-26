@@ -92,7 +92,7 @@ OPIK_PROJECT_NAME=Chagi Chatbot Evaluation
 ```bash
 git clone https://github.com/your-username/chatbot_app.git
 cd chatbot_app
-
+```
 
 ### 2. Build and start containers
 
