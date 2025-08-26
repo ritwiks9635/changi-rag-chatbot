@@ -85,14 +85,14 @@ GROQ_API_KEY=your_groq_api_key
 OPIK_API_KEY=your_opik_api_key
 OPIK_WORKSPACE_ID=your_opik_workspace_id
 OPIK_PROJECT_NAME=Chagi Chatbot Evaluation
-
+````
 ## ⚙️ Setup & Usage
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/chatbot_app.git
 cd chatbot_app
-````
+
 
 ### 2. Build and start containers
 
