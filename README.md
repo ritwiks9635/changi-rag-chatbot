@@ -1,6 +1,6 @@
-# 🤖 Trading Chatbot App
+# 🤖 Changi Airport ChatBot ✈ App
 
-A **production-ready AI-powered trading assistant** built with **FastAPI (backend)** and **React (frontend)**.  
+A **production-ready AI-powered Changi Airport ChatBot** built with **FastAPI (backend)** and **React (frontend)**.  
 It uses **RAG (Retrieval-Augmented Generation)** with **Gemini embeddings** + **Pinecone vector DB** to deliver intelligent trading insights in real time.  
 
 The app is fully **Dockerized** — both backend and frontend run together with a single `docker compose up -d`.
@@ -8,7 +8,7 @@ The app is fully **Dockerized** — both backend and frontend run together with 
 ---
 
 ## 🚀 Features
-- 🔍 **Web scraping + preprocessing** for financial data ingestion.  
+- 🔍 **Web scraping + preprocessing** for Airport data ingestion.  
 - 🧠 **RAG pipeline** using Gemini embeddings + Pinecone vector search.  
 - ⚡ **FastAPI backend** with modular API routes.  
 - 🎨 **React + Nginx frontend** with a modern UI.  
@@ -26,7 +26,7 @@ The app is fully **Dockerized** — both backend and frontend run together with 
 
 ```
 
-chatbot\_app/
+chatbot\
 ├── backend/                        # FastAPI backend with RAG pipeline
 │   ├── app/
 │   │   ├── api.py                  # FastAPI endpoints
